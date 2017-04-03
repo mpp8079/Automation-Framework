@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Script xmlns="http://www.w3schools.com/xmlValidation.xsd" name="ManiPageLogin"
+	locale="en" lang="">
+	<KeyWords>			
+		<KeyWord label="mainPagelogin">
+			<Arguments>
+				<ArgumentVal value="mpp1221@yahoo.com" />
+				<ArgumentVal value="abc123" />
+				<ArgumentVal value=""/>
+			</Arguments>
+		</KeyWord>		
+	</KeyWords>
+</Script>

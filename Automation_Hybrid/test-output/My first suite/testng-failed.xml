@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My first suite]">
+  <test name="my fist test(failed)">
+    <classes>
+      <class name="com.hybrid.Framework.RunTest">
+        <methods>
+          <include name="runTest"/>
+          <include name="StartSuire"/>
+          <include name="EndSuite"/>
+        </methods>
+      </class> <!-- com.hybrid.Framework.RunTest -->
+    </classes>
+  </test> <!-- my fist test(failed) -->
+</suite> <!-- Failed suite [My first suite] -->

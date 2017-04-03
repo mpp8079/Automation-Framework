@@ -1,0 +1,8 @@
+<suite name="My first suite">
+	<test name="my fist test">
+		<classes>
+			<class name="com.hybrid.Framework.RunTest">
+			</class>
+		</classes>
+	</test>
+</suite>
