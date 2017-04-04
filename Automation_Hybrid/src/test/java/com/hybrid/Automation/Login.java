@@ -5,9 +5,16 @@ import org.openqa.selenium.WebDriver;
 
 import com.hybrid.Constants.ObjectRepostiory;
 import com.hybrid.Framework.Driver;
+import com.hybrid.Framework.ExtentManager;
 
 public class Login {
-//Driver driver = new Driver();
+	
+	private ExtentManager myAssert;
+	
+	public Login(ExtentManager sr) {
+		this.myAssert=sr;
+	}
+
 	
 	public  boolean login(String username,String password ,String confirmpassword){
 	Driver.Instance.findElement(By.xpath(".//*[@id='homewrapper']/div[5]/a[3]/div/u")).click();
@@ -21,7 +28,7 @@ public class Login {
 	}
 	
 
-	public boolean verifyLogin(){
+	public boolean verifyLogin(){	
 		System.out.println("Jay Swaminarayan Tame Mahan chho");
 		return false;
 		
