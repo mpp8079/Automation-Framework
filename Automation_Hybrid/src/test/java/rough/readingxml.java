@@ -17,7 +17,7 @@ public class readingxml {
 	
 	WebDriver driver;
 	Properties pro;
-	
+	public String name;
 	@BeforeTest
 	public void openBrowser() {
 		String browser = "Chrome";

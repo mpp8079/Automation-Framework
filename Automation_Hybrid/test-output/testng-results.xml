@@ -2,12 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="80985" started-at="2017-04-03T00:25:46Z" finished-at="2017-04-03T00:27:07Z">
+  <suite name="Suite" duration-ms="0" started-at="2017-04-03T01:33:12Z" finished-at="2017-04-03T01:33:12Z">
     <groups>
     </groups>
-    <test name="L1_Login_Logout_CHROME" duration-ms="37836" started-at="2017-04-03T00:25:46Z" finished-at="2017-04-03T00:26:24Z">
-      <class name="com.hybrid.Framework.ExecuteTests">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.ExecuteTests@741a8937]" name="OpenBrowser" is-config="true" duration-ms="13098" started-at="2017-04-02T19:25:46Z" finished-at="2017-04-02T19:25:59Z">
+  </suite> <!-- Suite -->
+  <suite name="My first suite" duration-ms="3501" started-at="2017-04-03T01:31:58Z" finished-at="2017-04-03T01:32:01Z">
+    <groups>
+    </groups>
+    <test name="my fist test" duration-ms="3501" started-at="2017-04-03T01:31:58Z" finished-at="2017-04-03T01:32:01Z">
+      <class name="com.hybrid.Framework.RunTest">
+        <test-method status="PASS" signature="StartSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="StartSuite" is-config="true" duration-ms="57" started-at="2017-04-02T20:31:58Z" finished-at="2017-04-02T20:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSuite -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="19" started-at="2017-04-02T20:32:01Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-02T20:32:01Z">
           <params>
             <param index="0">
               <value>
@@ -19,18 +27,7 @@
                 <![CDATA[CHROME]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="runTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.ExecuteTests@741a8937]" name="runTestCase" duration-ms="24415" started-at="2017-04-02T19:25:59Z" finished-at="2017-04-02T19:26:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[L1_Login_Logout]]>
-              </value>
-            </param>
-            <param index="1">
+            <param index="2">
               <value>
                 <![CDATA[CHROME]]>
               </value>
@@ -38,16 +35,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hybrid.Framework.ExecuteTests@741a8937]" name="closeBrowser" is-config="true" duration-ms="318" started-at="2017-04-02T19:26:24Z" finished-at="2017-04-02T19:26:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.hybrid.Framework.ExecuteTests -->
-    </test> <!-- L1_Login_Logout_CHROME -->
-    <test name="L1_Login_Logout_StandarUser_CHROME" duration-ms="32094" started-at="2017-04-03T00:26:24Z" finished-at="2017-04-03T00:26:56Z">
-      <class name="com.hybrid.Framework.ExecuteTests">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.ExecuteTests@1b2abca6]" name="OpenBrowser" is-config="true" duration-ms="9612" started-at="2017-04-02T19:26:24Z" finished-at="2017-04-02T19:26:34Z">
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="2" started-at="2017-04-02T20:32:01Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-02T20:32:01Z">
           <params>
             <param index="0">
               <value>
@@ -59,18 +48,7 @@
                 <![CDATA[CHROME]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="runTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.ExecuteTests@1b2abca6]" name="runTestCase" duration-ms="22258" started-at="2017-04-02T19:26:34Z" finished-at="2017-04-02T19:26:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[L1_Login_Logout_StandarUser]]>
-              </value>
-            </param>
-            <param index="1">
+            <param index="2">
               <value>
                 <![CDATA[CHROME]]>
               </value>
@@ -78,16 +56,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hybrid.Framework.ExecuteTests@1b2abca6]" name="closeBrowser" is-config="true" duration-ms="222" started-at="2017-04-02T19:26:56Z" finished-at="2017-04-02T19:26:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.hybrid.Framework.ExecuteTests -->
-    </test> <!-- L1_Login_Logout_StandarUser_CHROME -->
-    <test name="ManiPageLogin_CHROME" duration-ms="10807" started-at="2017-04-03T00:26:56Z" finished-at="2017-04-03T00:27:07Z">
-      <class name="com.hybrid.Framework.ExecuteTests">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.ExecuteTests@c88a337]" name="OpenBrowser" is-config="true" duration-ms="9883" started-at="2017-04-02T19:26:56Z" finished-at="2017-04-02T19:27:06Z">
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="3" started-at="2017-04-02T20:32:01Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-02T20:32:01Z">
           <params>
             <param index="0">
               <value>
@@ -99,18 +69,7 @@
                 <![CDATA[CHROME]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="runTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.ExecuteTests@c88a337]" name="runTestCase" duration-ms="615" started-at="2017-04-02T19:27:06Z" finished-at="2017-04-02T19:27:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ManiPageLogin]]>
-              </value>
-            </param>
-            <param index="1">
+            <param index="2">
               <value>
                 <![CDATA[CHROME]]>
               </value>
@@ -118,12 +77,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hybrid.Framework.ExecuteTests@c88a337]" name="closeBrowser" is-config="true" duration-ms="307" started-at="2017-04-02T19:27:07Z" finished-at="2017-04-02T19:27:07Z">
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="EndSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="EndSuite" is-config="true" duration-ms="69649" started-at="2017-04-02T20:32:02Z" finished-at="2017-04-02T20:33:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.hybrid.Framework.ExecuteTests -->
-    </test> <!-- ManiPageLogin_CHROME -->
-  </suite> <!-- Default Suite -->
+        </test-method> <!-- EndSuite -->
+      </class> <!-- com.hybrid.Framework.RunTest -->
+    </test> <!-- my fist test -->
+  </suite> <!-- My first suite -->
 </testng-results>
