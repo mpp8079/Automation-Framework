@@ -10,14 +10,14 @@ import com.hybrid.Framework.ExtentManager;
 public class Login {
 	
 	private ExtentManager myAssert;
+	//WebDriver driver = Driver.getInstance().getWebDriver();	
 	
-	public Login(ExtentManager sr) {
-		this.myAssert=sr;
-	}
+	
 
 	
 	public  boolean login(String username,String password ,String confirmpassword){
-	Driver.Instance.findElement(By.xpath(".//*[@id='homewrapper']/div[5]/a[3]/div/u")).click();
+	//WebDriver driver = Driver.getInstance().getWebDriver();	
+	Driver.Instance.findElement(By.xpath(ObjectRepostiory.Money_Page_Link_XPATH)).click();
 	Driver.Instance.findElement(By.xpath(".//*[@id='signin_info']/a[1]")).click();
 	Driver.Instance.findElement(By.xpath(".//*[@id='useremail']")).sendKeys(username);		
 	Driver.Instance.findElement(By.xpath(".//*[@id='emailsubmit']")).click();
@@ -47,8 +47,8 @@ public class Login {
 	}
 	
 	public  boolean mainPagelogin(String username,String password ,String confirmpassword){
-		WebDriver driver = Driver.getInstance().getWebDriver();		
-		driver.findElement(By.xpath(ObjectRepostiory.Manin_Page_Login_XPATH)).click();
+		//WebDriver driver = Driver.getInstance().getWebDriver();	
+		Driver.Instance.findElement(By.xpath(ObjectRepostiory.Manin_Page_Login_XPATH)).click();
 		
 			
 			return false;
