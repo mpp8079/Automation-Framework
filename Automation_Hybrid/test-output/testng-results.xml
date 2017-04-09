@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2017-04-04T02:41:07Z" finished-at="2017-04-04T02:41:07Z">
+  <suite name="Default suite" duration-ms="2907" started-at="2017-04-09T17:55:20Z" finished-at="2017-04-09T17:55:23Z">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
-  <suite name="My first suite" duration-ms="3032" started-at="2017-04-04T02:39:33Z" finished-at="2017-04-04T02:39:36Z">
-    <groups>
-    </groups>
-    <test name="my fist test" duration-ms="3032" started-at="2017-04-04T02:39:33Z" finished-at="2017-04-04T02:39:36Z">
+    <test name="Default test" duration-ms="2907" started-at="2017-04-09T17:55:20Z" finished-at="2017-04-09T17:55:23Z">
       <class name="com.hybrid.Framework.RunTest">
-        <test-method status="PASS" signature="StartSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="StartSuite" is-config="true" duration-ms="47" started-at="2017-04-03T21:39:32Z" finished-at="2017-04-03T21:39:33Z">
+        <test-method status="PASS" signature="StartSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="StartSuite" is-config="true" duration-ms="46" started-at="2017-04-09T12:55:20Z" finished-at="2017-04-09T12:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartSuite -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="18" started-at="2017-04-03T21:39:35Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-03T21:39:35Z">
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="17" started-at="2017-04-09T12:55:23Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-09T12:55:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[L1_Login_Logout]]>
+                <![CDATA[L1_Create_Portfolio]]>
               </value>
             </param>
             <param index="1">
@@ -36,53 +32,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="6" started-at="2017-04-03T21:39:36Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-03T21:39:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[L1_Login_Logout_StandarUser]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="3" started-at="2017-04-03T21:39:36Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-03T21:39:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ManiPageLogin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="EndSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="EndSuite" is-config="true" duration-ms="90341" started-at="2017-04-03T21:39:36Z" finished-at="2017-04-03T21:41:06Z">
+        <test-method status="PASS" signature="EndSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="EndSuite" is-config="true" duration-ms="16841" started-at="2017-04-09T12:55:23Z" finished-at="2017-04-09T12:55:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndSuite -->
       </class> <!-- com.hybrid.Framework.RunTest -->
-    </test> <!-- my fist test -->
-  </suite> <!-- My first suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

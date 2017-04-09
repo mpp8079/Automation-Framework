@@ -1,5 +1,6 @@
 package com.hybrid.Constants;
 
+import com.hybrid.Automation.CreatePortfolio;
 import com.hybrid.Automation.Login;
 
 public enum Keywords {
@@ -18,7 +19,8 @@ public enum Keywords {
 	LOGIN(Login.class, "Description"),
 	VERIFYLOGIN(Login.class, "Description"),
 	LOGOUT(Login.class, "Description"),
-	VERIFYLOGOUT(Login.class, "Description");
+	VERIFYLOGOUT(Login.class, "Description"),
+	NEWPORTFOLIO(CreatePortfolio.class, "Description");
 
 	private final Class<?> className;
 	private final String description;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Script xmlns="http://www.w3schools.com/xmlValidation.xsd" name="L1_Create_Portfolio"
+	locale="en" lang="">
+	<KeyWords>			
+		<KeyWord label="Login">
+			<Arguments>
+				<ArgumentVal value="mpp1221@yahoo.com"/>
+				<ArgumentVal value="abc123"/>
+				<ArgumentVal value=""/>
+			</Arguments>
+		</KeyWord>
+		<KeyWord label="NewProtfolio">
+			<Arguments>
+				<ArgumentVal value="Portfolio01"/>				
+			</Arguments>
+		</KeyWord>
+		<KeyWord label="Logout" />
+		<KeyWord label="VerifyLogout" />
+	</KeyWords>
+</Script>

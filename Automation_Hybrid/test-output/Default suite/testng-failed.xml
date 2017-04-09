@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default Suite]">
-  <parameter name="tcName" value="L1_Login_Logout_StandarUser"/>
+  <parameter name="tcName" value="L1_Create_Portfolio"/>
   <parameter name="browser" value="CHROME"/>
-  <test name="L1_Login_Logout_StandarUser_CHROME(failed)">
-    <parameter name="tcName" value="L1_Login_Logout_StandarUser"/>
+  <test name="L1_Create_Portfolio_CHROME(failed)">
+    <parameter name="tcName" value="L1_Create_Portfolio"/>
     <parameter name="browser" value="CHROME"/>
     <classes>
       <class name="com.hybrid.Framework.ExecuteTests">
         <methods>
-          <include name="closeBrowser"/>
           <include name="runTestCase"/>
-          <include name="OpenBrowser"/>
           <include name="OpenBrowser"/>
         </methods>
       </class> <!-- com.hybrid.Framework.ExecuteTests -->
     </classes>
-  </test> <!-- L1_Login_Logout_StandarUser_CHROME(failed) -->
+  </test> <!-- L1_Create_Portfolio_CHROME(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
