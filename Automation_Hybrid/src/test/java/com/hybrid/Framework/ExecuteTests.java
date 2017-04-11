@@ -13,7 +13,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class ExecuteTests {
-	ExtentReports rep = ExtentManager.getInstance();
+	//ExtentReports rep = ExtentManager.getInstance();
 	
 @Parameters({"tcName","browser"})
 @BeforeMethod	
@@ -25,8 +25,8 @@ public static void OpenBrowser(String tcName , String browser){
 @Parameters({"tcName","browser"})
 @Test
 public void runTestCase(String tcName,String browser){
-	ExtentTest test  = rep.startTest(tcName);
-	test.log(LogStatus.INFO, tcName);
+//	ExtentTest test  = rep.startTest(tcName);
+	//test.log(LogStatus.INFO, tcName);
 		//tcName = "L1_Login_Logout";
 		//browser="Chrome";
 		//tcName=;
@@ -35,10 +35,10 @@ public void runTestCase(String tcName,String browser){
 	browser = browser.trim();
 	
 	FrameworkHelper.runTests(tcName,browser);
-	test.log(LogStatus.PASS,tcName);
+	//test.log(LogStatus.PASS,tcName);
 	
-		rep.endTest(test);
-		rep.flush();
+	//	rep.endTest(test);
+		//rep.flush();
 	}
 
 @AfterMethod
