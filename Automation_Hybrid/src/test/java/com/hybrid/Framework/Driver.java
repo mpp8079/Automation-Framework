@@ -52,7 +52,7 @@ public class Driver {
 		
 			}
 		
-			Instance.manage().window().maximize();
+			//Instance.manage().window().maximize();
 			Instance.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		
 	}

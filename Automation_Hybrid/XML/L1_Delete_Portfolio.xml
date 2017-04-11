@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Script xmlns="http://www.w3schools.com/xmlValidation.xsd" name="L1_Create_Portfolio"
+<Script xmlns="http://www.w3schools.com/xmlValidation.xsd" name="L1_Delete_Portfolio"
 	locale="en" lang="">
 	<KeyWords>			
 		<KeyWord label="Login">
@@ -9,9 +9,9 @@
 				<ArgumentVal value=""/>
 			</Arguments>
 		</KeyWord>
-		<KeyWord label="NewPortfolio">
+		<KeyWord label="SelectPortfolio">
 			<Arguments>
-				<ArgumentVal value="Portfolio03"/>				
+				<ArgumentVal value="Portfolio01"/>				
 			</Arguments>
 		</KeyWord>
 		<KeyWord label="Logout" />

@@ -13,7 +13,8 @@ public class ObjectRepostiory {
 	public static final String Create_Frotfolio_Submit_Button_ID="createPortfolioButton";
 
 
-
+   //Delete_Protfolio
+	public static final String My_Portfolio_XPATH=".//*[@id='portfolioid']";
 
 
 

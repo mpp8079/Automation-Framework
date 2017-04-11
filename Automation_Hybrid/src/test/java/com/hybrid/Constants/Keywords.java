@@ -1,26 +1,19 @@
 package com.hybrid.Constants;
 
-import com.hybrid.Automation.CreatePortfolio;
 import com.hybrid.Automation.Login;
+import com.hybrid.Automation.PortfolioAction;
 
 public enum Keywords {
-	
-	//Login on Main Page
-	
-	MAINPAGELOGIN(Login.class, "Description"),
-	
-	
-	
-	
-	
-	
+		
 	//Login on Money Page
 	Empty(),
 	LOGIN(Login.class, "Description"),
 	VERIFYLOGIN(Login.class, "Description"),
 	LOGOUT(Login.class, "Description"),
 	VERIFYLOGOUT(Login.class, "Description"),
-	NEWPORTFOLIO(CreatePortfolio.class, "Description");
+	NEWPORTFOLIO(PortfolioAction.class, "Description"),
+	SELECTPORTFOLIO(PortfolioAction.class, "Description"),
+	DELETEPORTFOLIO(PortfolioAction.class, "Description");
 
 	private final Class<?> className;
 	private final String description;

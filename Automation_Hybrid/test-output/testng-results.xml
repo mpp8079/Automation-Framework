@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2907" started-at="2017-04-09T17:55:20Z" finished-at="2017-04-09T17:55:23Z">
+  <suite name="Default suite" duration-ms="3642" started-at="2017-04-11T01:20:50Z" finished-at="2017-04-11T01:20:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2907" started-at="2017-04-09T17:55:20Z" finished-at="2017-04-09T17:55:23Z">
+    <test name="Default test" duration-ms="3642" started-at="2017-04-11T01:20:50Z" finished-at="2017-04-11T01:20:54Z">
       <class name="com.hybrid.Framework.RunTest">
-        <test-method status="PASS" signature="StartSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="StartSuite" is-config="true" duration-ms="46" started-at="2017-04-09T12:55:20Z" finished-at="2017-04-09T12:55:20Z">
+        <test-method status="PASS" signature="StartSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="StartSuite" is-config="true" duration-ms="59" started-at="2017-04-10T20:20:50Z" finished-at="2017-04-10T20:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartSuite -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="17" started-at="2017-04-09T12:55:23Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-09T12:55:23Z">
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="15" started-at="2017-04-10T20:20:54Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-10T20:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L1_Delete_Portfolio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="37" started-at="2017-04-10T20:20:54Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-10T20:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L1_Login_Logout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="runTest" duration-ms="14" started-at="2017-04-10T20:20:54Z" data-provider="getTestCaseNamesAndEnvOptions" finished-at="2017-04-10T20:20:54Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="EndSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="EndSuite" is-config="true" duration-ms="16841" started-at="2017-04-09T12:55:23Z" finished-at="2017-04-09T12:55:40Z">
+        <test-method status="PASS" signature="EndSuite()[pri:0, instance:com.hybrid.Framework.RunTest@64616ca2]" name="EndSuite" is-config="true" duration-ms="97994" started-at="2017-04-10T20:20:54Z" finished-at="2017-04-10T20:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndSuite -->

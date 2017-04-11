@@ -46,13 +46,7 @@ public class Login {
 		
 	}
 	
-	public  boolean mainPagelogin(String username,String password ,String confirmpassword){
-		//WebDriver driver = Driver.getInstance().getWebDriver();	
-		Driver.Instance.findElement(By.xpath(ObjectRepostiory.Manin_Page_Login_XPATH)).click();
-		
-			
-			return false;
-		}
+	
 		
 	
 }
