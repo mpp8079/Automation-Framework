@@ -15,7 +15,7 @@ public class ObjectRepostiory {
 
    //Delete_Protfolio
 	public static final String My_Portfolio_XPATH=".//*[@id='portfolioid']";
-
+	public static final String Delete_Portfolio_XPATH=".//*[@id='deletePortfolio']";
 
 
 
