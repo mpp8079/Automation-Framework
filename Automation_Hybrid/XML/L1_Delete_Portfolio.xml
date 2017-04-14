@@ -11,9 +11,10 @@
 		</KeyWord>
 		<KeyWord label="SelectPortfolio">
 			<Arguments>
-				<ArgumentVal value="Portfolio01"/>				
+				<ArgumentVal value="Portfolio02"/>				
 			</Arguments>
 		</KeyWord>
+		<KeyWord label="DeletePortfolio"/>
 		<KeyWord label="Logout" />
 		<KeyWord label="VerifyLogout" />
 	</KeyWords>

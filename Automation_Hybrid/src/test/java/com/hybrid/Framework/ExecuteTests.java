@@ -25,7 +25,7 @@ public static void OpenBrowser(String tcName , String browser){
 @Parameters({"tcName","browser"})
 @Test
 public void runTestCase(String tcName,String browser){
-//	ExtentTest test  = rep.startTest(tcName);
+//ExtentTest test  = rep.startTest(tcName);
 	//test.log(LogStatus.INFO, tcName);
 		//tcName = "L1_Login_Logout";
 		//browser="Chrome";
